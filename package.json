@@ -1,0 +1,15 @@
+{
+  "name": "lwc-barebone",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "start": "serve"
+  },
+  "devDependencies": {
+    "@lwc/rollup-plugin": "^1.17.6",
+    "@rollup/plugin-replace": "^2.3.4",
+    "lwc": "^1.17.6",
+    "rollup": "^2.44.0",
+    "serve": "^11.3.2"
+  }
+}

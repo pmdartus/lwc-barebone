@@ -14,6 +14,7 @@ export default {
   plugins: [
     replace({
       "process.env.NODE_ENV": JSON.stringify(__ENV__),
+      preventAssignment: true
     }),
     lwc(),
   ],

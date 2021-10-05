@@ -1,0 +1,5 @@
+<template>
+    <template for:each={items} for:item="item">
+        <x-fragment-renderer key={item.id} item={item} fragment={fragment}></x-fragment-renderer>
+    </template>
+</template>

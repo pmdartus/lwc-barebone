@@ -1,3 +1,3 @@
-import { LightningElement } from 'lwc';
+import "./app.scoped.css?scoped=true";
 
-export default class App extends LightningElement {}
+export default {};

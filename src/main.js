@@ -1,3 +1,5 @@
+// import "@lwc/synthetic-shadow";
+
 import { createElement } from "lwc";
 import App from "x/app";
 

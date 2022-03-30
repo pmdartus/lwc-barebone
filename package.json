@@ -7,13 +7,13 @@
   },
   "devDependencies": {
     "@lwc/rollup-plugin": "^2.5.4",
-    "@rollup/plugin-replace": "^3.0.0",
+    "@rollup/plugin-replace": "^4.0.0",
     "lwc": "^2.5.4",
     "rollup": "^2.53.2",
-    "serve": "^12.0.0"
+    "serve": "^13.0.0"
   },
   "volta": {
-    "node": "16.11.1",
-    "npm": "8.1.0"
+    "node": "16.14.2",
+    "npm": "8.5.5"
   }
 }

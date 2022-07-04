@@ -1,19 +1,26 @@
 {
   "name": "lwc-barebone",
-  "private": true,
+  "description": "Starter project to experiment with LWC.",
+  "repository": "github:pmdartus/lwc-barebone",
   "scripts": {
-    "build": "rollup -c",
-    "start": "serve"
+    "dev": "rollup -c --watch",
+    "build": "rollup -c"
   },
   "devDependencies": {
-    "@lwc/rollup-plugin": "^2.5.4",
+    "@lwc/rollup-plugin": "^2.20.0",
     "@rollup/plugin-replace": "^4.0.0",
-    "lwc": "^2.5.4",
-    "rollup": "^2.53.2",
-    "serve": "^13.0.0"
+    "lwc": "^2.20.0",
+    "rollup": "^2.75.7",
+    "rollup-plugin-serve": "^2.0.0"
   },
-  "volta": {
-    "node": "16.14.2",
-    "npm": "8.5.5"
+  "prettier": {
+    "overrides": [
+      {
+        "files": "src/**/*.html",
+        "options": {
+          "parser": "lwc"
+        }
+      }
+    ]
   }
 }
